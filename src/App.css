@@ -1,38 +1,59 @@
 .App {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #8b85f9;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App-body {
+  background-color: #34373e;
+  background-image: url('../public/background-image.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
+  margin: 0 4em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #d5d5d5;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-size: 30px;
+}
+
+.button-a {
+  color: #34373e;
+  transform: rotate(0.75turn);
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-size: 20px;
+  transform: rotate(0.75turn);
+  background-image: linear-gradient(0.5turn,  #d5d5d5 0%, #8b85f9 50%, #d5d5d5 90%);
+  background-size: 200% auto;
+  height: 200px;
+  display: inline-block;
+  border-radius: 1px;
+  border: transparent;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-position: 0px 20px;
+  color: #34373e;
+}
+
+button:active {
+  background-image: linear-gradient(0.5turn, #ababab 0%, #716ccd 50%, #ababab 90%);
+  color: #d5d5d5;
 }

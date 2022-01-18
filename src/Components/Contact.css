@@ -1,0 +1,26 @@
+.Contact {
+    min-height: 22vh;
+    background-color: #8b85f9;
+}
+
+.Contact-border {
+    background-color: #00000050;
+    margin: 2em 9em;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #cdcdcd;
+    padding: 1.5em;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a:active {
+    color: #34373e;
+}

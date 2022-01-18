@@ -1,0 +1,12 @@
+.Experience {
+    max-width: 900px;
+    background-color: #00000050;
+    margin: 1em 2em;
+    padding: 1em;
+    border-radius: 5px;
+}
+    
+    
+ul {
+    font-size: 20px;
+}

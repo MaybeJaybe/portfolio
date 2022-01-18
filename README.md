@@ -1,3 +1,19 @@
+A resume is an extremely important part of your career, so why not make one really tailored to me that also shows what i can do?
+
+
+
+
+make intro be outside like a card and then flip open, kinda like how dani did her resume cuz its cool. maybe click picture and have it open and expand?
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

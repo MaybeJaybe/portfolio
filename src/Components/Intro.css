@@ -1,0 +1,25 @@
+.img {
+    height: 300px;
+    border-radius: 3px;
+}
+
+.intro {
+    margin: 1em;
+}
+
+.intro h1 {
+    margin-bottom: 1em;
+    background-image: linear-gradient(to left, #11131500, 10%, #111315d5, 90%, #3e72a500);
+    padding: .4em;
+}
+
+.intro h2 {
+    color: #111315;
+    font-size: 25px;
+    background-image: linear-gradient(to left, #d5d5d500, 20%, #d5d5d5, 80%, #d5d5d500);
+    padding: .4em;
+}
+
+.intro p {
+    margin: 0 3em;
+}

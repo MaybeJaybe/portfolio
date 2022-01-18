@@ -1,0 +1,8 @@
+.Email {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: #8b85f9;
+    margin: 0;
+    padding: 1em;
+    min-height: 100vh;
+}

@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
+import Resume from './Resume';
+import Email from './Components/Email';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Switch>
+        <Route exact path='/' component={App} />
+        <Route path='/resume' component={Resume} />
+        <Route path='/email' component={Email} />
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
