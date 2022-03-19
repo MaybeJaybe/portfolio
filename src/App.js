@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <div className="App-body">
         <Intro />
-        <Link to="/resume"><button>&#8964;</button></Link>
       </div>
     </div>
   );

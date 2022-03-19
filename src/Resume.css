@@ -39,3 +39,14 @@ h4 {
 h5 {
     font-size: 15px;
 }
+.nav {
+    background-color: #0e0e10;
+    padding: 1em;
+    width: fill;
+}
+.Link {
+    color: #d5d5d5;
+}
+.Link:hover {
+    color: #969696;
+}

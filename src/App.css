@@ -28,13 +28,6 @@ h2 {
   font-size: 30px;
 }
 
-.button-a {
-  color: #34373e;
-  transform: rotate(0.75turn);
-  margin: 0;
-  padding: 0;
-}
-
 button {
   font-size: 20px;
   transform: rotate(0.75turn);

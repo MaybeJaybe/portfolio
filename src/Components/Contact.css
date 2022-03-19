@@ -1,11 +1,13 @@
 .Contact {
     min-height: 22vh;
     background-color: #8b85f9;
+    margin: 2em 0;
+    border-radius: 20px;
 }
 
 .Contact-border {
     background-color: #00000050;
-    margin: 2em 9em;
+    margin: 2em 2em;
     padding: 2em;
     border-radius: 5px;
 }
