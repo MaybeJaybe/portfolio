@@ -5,8 +5,12 @@
   padding: 1em;
   border-radius: 5px;
 }
+.Projects > h2 {
+  padding-left: 1em;
+}
 ul {
   list-style-type: none;
+  font-size: 20px;
 }
 li {
   padding: 1em;

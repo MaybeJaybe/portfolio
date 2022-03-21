@@ -19,6 +19,9 @@ const Email = () => {
     
     return (
         <div className="Email">
+            <div className="nav">
+                <Link to="/" className="Home">Home</Link>
+            </div>
             <h1>Email Me!</h1>
             <form ref={form} onSubmit={sendEmail}>
                 <div>
@@ -32,9 +35,11 @@ const Email = () => {
                 <div>
                 <textarea placeholder="Message" name="message" className="Message"/>
                 </div>
+                <div classname="Button-container">
                 <input className="Button" type="submit" value="Send" />
+                </div>
             </form>
-            <Link to="/resume">Back</Link>
+            <Link to="/resume" className="Back">Back</Link>
         </div>
     );
 };

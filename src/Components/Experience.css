@@ -5,8 +5,8 @@
     padding: 1em;
     border-radius: 5px;
 }
-    
-    
-ul {
+
+.Experience > ul {
+    text-align: center;
     font-size: 20px;
 }
