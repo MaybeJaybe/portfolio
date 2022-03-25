@@ -1,21 +1,19 @@
 import About from'./Components/About';
-import Education from './Components/Education';
-import Experience from './Components/Experience';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import { Link } from 'react-router-dom';
-import './Resume.css';
+import './Hub.css';
 
-function Resume() {
+
+function Hub() {
     return(
-        <div className="Resume">
+        <div className="Hub">
             <div className="nav">
             <Link to="/" className="Link">Home</Link>
+            <Link to="/resume-pdf" className="Link">Resume</Link>
             </div>
-            <div className="Resume-body"> 
+            <div className="Hub-body"> 
                 <About />
-                <Education />
-                <Experience />
                 <Projects />
                 <Contact />
             </div>
@@ -23,4 +21,4 @@ function Resume() {
     )
 }
 
-export default Resume
+export default Hub

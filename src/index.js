@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Resume from './Resume';
+import Hub from './Hub';
 import Email from './Components/Email';
+import Resume from './Components/Resume';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -12,8 +13,9 @@ ReactDOM.render(
     <Router>
       <Switch>
         <Route exact path='/' component={App} />
-        <Route path='/resume' component={Resume} />
+        <Route path='/central-hub' component={Hub} />
         <Route path='/email' component={Email} />
+        <Route path='/resume-pdf' component={Resume} />
       </Switch>
     </Router>
   </React.StrictMode>,

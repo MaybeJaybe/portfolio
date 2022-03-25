@@ -1,0 +1,35 @@
+.ResumeHandler {
+  margin: 2em;
+  background-size: cover;
+  height: 100vh;
+}
+canvas {
+  box-shadow: 0 0 8px #6c69ae;
+  height: 100%;
+}
+.page-nav {
+  position: absolute;
+  bottom: -10px;
+  right: 45%;
+}
+button {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #1f1f1f;
+  background-color: #e7e7e7;
+  border-radius: 2px;
+  box-shadow: 0 0 3px #1f1f1f;
+  border: none;
+  margin: 0 .5em;
+  padding: .5em;
+}
+button:disabled {
+  padding: .5em;
+}
+.back-link {
+  color: #1f1f1f;
+  background-color: #e7e7e7;
+  box-shadow: 0 0 3px #1f1f1f;
+  border-radius: 2px;
+  padding: .25em;
+}

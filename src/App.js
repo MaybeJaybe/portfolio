@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './App.css';
 import Intro from './Components/Intro';
 
@@ -13,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

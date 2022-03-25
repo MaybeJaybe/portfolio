@@ -39,7 +39,7 @@ const Email = () => {
                 <input className="Button" type="submit" value="Send" />
                 </div>
             </form>
-            <Link to="/resume" className="Back">Back</Link>
+            <Link to="/central-hub" className="Back">Back</Link>
         </div>
     );
 };

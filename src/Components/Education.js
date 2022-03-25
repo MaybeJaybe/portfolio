@@ -10,4 +10,4 @@ function Education() {
         </div>
     )
 }
-export default Education;
+export default Education

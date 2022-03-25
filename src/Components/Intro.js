@@ -8,8 +8,8 @@ function Intro() {
             <h2>Janelle <small>(Jay)</small> Mayberry</h2>
             <img src='./profile-image.jpg' className="img" alt="profile-image" />
             <h2>Front-End Web Developer</h2>
-            <Link to="/resume"><button>&#8964;</button></Link>
+            <Link to="/central-hub"><button className="intro-button">&#8964;</button></Link>
         </div>
     )
 }
-export default Intro;
+export default Intro
